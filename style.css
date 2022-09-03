@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(200, 211, 247);
+}#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}#body{
+   /* margin-top: 10px; */
+   border-radius: 10px;
+    position: relative;
+    /* height: 100vh; */
+    width: 70vw;
+    /* border: 4px solid black; */
+    background-color: rgb(200, 237, 237);
+}#img{
+    position: absolute;
+    top: 7vh;
+    left: 10vh;
+    height: 50vh;
+    width: 20vw;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6e/A._P._J._Abdul_Kalam.jpg);
+    background-size: cover;
+    border-radius: 40%;
+    /* border: 2px solid black; */
+}#name{
+    position: absolute;
+    top: 35vh;
+    right: 6vh; 
+}    
+#name h3{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}#name h4{
+    text-align: end;
+    font-size: 24px;
+    font-weight: 200;
+}#missle{
+    /* text-align-last: justify; */
+    height: 50vh;
+    width: 70vw;
+    /* background-color: red; */
+    position: absolute;
+    top: 68vh;
+    left: 10vh;
+}
+#missle h1{
+    font-size: 70px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+#missle h3{
+    font-size: 20px;
+    font-weight: 200;
+}#bio{
+    position: absolute;
+    top: 125vh;
+    left: 10vh; 
+    
+}#bio h3{
+    margin-bottom: 15px;
+}#bio ul{
+    margin-left: 40px;
+}#bio li{
+    margin-top: 5px;
+}#blank{
+    position: absolute;
+    top: 150vh;
+    left: 10vh; 
+    height: 30vh;
+
+}
